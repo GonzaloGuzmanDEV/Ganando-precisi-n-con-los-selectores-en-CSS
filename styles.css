@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(7, 7, 7),rgb(65, 65, 65));
+    height: 400px;
+}
+
+ul li:first-child{
+
+    color: red;
+}
+
+ol li:first-child{
+
+    color: red;
+}
+
+
+ul li:first-child, ol li:first-child{
+
+    font-size: 2rem;
+}
